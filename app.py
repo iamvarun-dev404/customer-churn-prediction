@@ -12,7 +12,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-model = joblib.load("D:\\project_1\\customer-churn-prediction folder\\churn_model.joblib")
+model = joblib.load("churn_model.joblib")
 
 # -------------------- CUSTOM STYLING --------------------
 
